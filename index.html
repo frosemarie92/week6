@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+    <body>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<div class="container">
+    <div class="weather-container">
+      <div class="clearfix">
+        <form id="weather__form" class="float-left">
+          <input type="text" id="weather__form-location" placeholder="Enter a city" autocomplete="off" autofocus="on">
+          <input type="submit" value="Search" class="btn btn-primary">
+        </form>
+        <button id="weather-refresh" class="float-left btn btn-success">Current Location</button>
+      </div>
+      <div class="weather-summary">
+        <div class="weather-summary-header">
+          <h1 id="weather-location"></h1>
+          <div id="weather-date" class="weather-detail__text">
+          </div>
+          <div class="weather-detail__text" id="weather-description"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="clearfix">
+              <img class="weather__icon weather__icon--today">
+              <div class="weather-temp weather-temp--today">
+
+              </div>
+              <div class="weather-unit__text weather-unit__text--today">
+                °C
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="weather-detail__text">
+              Precipitation: <span id="precipitation-probality"></span>
+            </div>
+            <div class="weather-detail__text">
+              Wind: <span id="wind-speed"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="days clearfix">
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+        <div class="day__block">
+          <div class="day__block-date"></div>
+          <img class="day__block-image">
+          <div class="day__block-temps">
+            <span class="day__block-temp"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small><a href="https://github.com/matthieua/sup" target="_blank">Open-source code</a>, by Matt Dellac</small>
+  </div>
+</div>
+<script src="js/app.js"></script>, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
 </body>
 </html>
